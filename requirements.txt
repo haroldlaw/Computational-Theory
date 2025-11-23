@@ -1,0 +1,34 @@
+# Requirements for SHA-256 Implementation and Analysis
+# This file specifies the Python packages needed to run the complete implementation
+
+# ============================================================================
+# CORE DEPENDENCIES (Required)
+# ============================================================================
+
+# NumPy - Essential for 32-bit integer arithmetic
+# SHA-256 requires precise 32-bit modular arithmetic operations
+numpy>=1.19.0,<2.0.0
+
+# Jupyter - Interactive notebook environment
+# Required for running the main implementation (problems.ipynb)
+jupyter>=1.0.0
+notebook>=6.0.0
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES (Enhanced functionality)
+# ============================================================================
+
+# JupyterLab - Modern interface (alternative to classic notebook)
+jupyterlab>=3.0.0
+
+# NBConvert - Notebook conversion tools (included with jupyter)
+nbconvert>=6.0.0
+
+# ============================================================================
+# PYTHON STANDARD LIBRARY (No installation needed)
+# ============================================================================
+# The following modules are built into Python:
+# - itertools (combinatorial functions for password enumeration)
+# - string (character set definitions: ascii_lowercase, digits, etc.)
+# - time (performance measurement and timing)
+# - hashlib (only used for verification, not core implementation)
