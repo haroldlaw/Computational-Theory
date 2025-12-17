@@ -24,6 +24,11 @@ jupyterlab>=3.0.0
 # NBConvert - Notebook conversion tools (included with jupyter)
 nbconvert>=6.0.0
 
+# Argon2 Password Hashing - State-of-the-art secure password storage
+# Winner of Password Hashing Competition, used in Problem 5 security demonstrations
+# Optional: code gracefully handles absence with try/except ImportError
+argon2-cffi>=21.0.0
+
 # ============================================================================
 # PYTHON STANDARD LIBRARY (No installation needed)
 # ============================================================================
